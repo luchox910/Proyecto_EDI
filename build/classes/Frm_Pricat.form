@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFileChooser" name="Jfile_edi">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="REGISTRO PRICAT"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Cursor Por defecto"/>
+    </Property>
+    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Frm_pricat" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" pref="1256" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" pref="548" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lbl_ruta" min="-2" pref="553" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+                                  <Component id="lbl_nit" min="-2" pref="85" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                          <Component id="jLabel9" min="-2" pref="152" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="jLabel2" min="-2" pref="72" max="-2" attributes="0"/>
+                                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" alignment="1" min="-2" pref="28" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txt_bgm" min="-2" pref="157" max="-2" attributes="0"/>
+                                              <Component id="txt_descl" min="-2" pref="221" max="-2" attributes="0"/>
+                                              <Component id="lbl_categoria" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                          <Component id="lbl_gln" min="-2" pref="109" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="lbl_narticulos" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="lbl_sendrefenrence" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="lbl_razon" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="lbl_novedad" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="416" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jButton1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="272" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="btn_buscar" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Component id="lbl_segmentos" min="-2" pref="155" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Component id="btn_borraseg" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel7" min="-2" pref="264" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="495" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="538" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lbl_narticulos" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lbl_novedad" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lbl_sendrefenrence" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lbl_razon" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lbl_segmentos" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btn_borraseg" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                          <Component id="btn_buscar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="jButton1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_nit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl_gln" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_bgm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txt_descl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel9" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                              <Component id="lbl_categoria" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl_ruta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="131" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="REGISTRO DE PRICAT   -     EDI"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_nit">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="11" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0000000000"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="Frm_Pricat_lbl_nit"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_gln">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="11" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0000"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="NIT:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_bgm">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_bgmActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="GLN: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="No. PRICAT:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Desc. Larga"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_descl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Categoria/Seccion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_categoria">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="11" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="***********************"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_razon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="11" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="***********************"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_novedad">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="***************"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TIPO NOVEDAD:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Send Reference: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_sendrefenrence">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="11" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0000000"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cant Articulos:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_narticulos">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0000"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="MEA &gt; 4 Decimales:"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_borraseg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Elimina Segmentos NP"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_borrasegActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PROVEEDOR:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Segmentos a Excluir: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_segmentos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="************************"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ruta EDI :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_ruta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="65"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ICON/OK.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_buscar">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ICON/SEARCH.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_buscarActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jt_productos">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="6" rowCount="9">
+                    <Column editable="false" title="EAN13" type="java.lang.Object"/>
+                    <Column editable="false" title="NOVEDAD" type="java.lang.Object"/>
+                    <Column editable="false" title="REFERENCIA" type="java.lang.Object"/>
+                    <Column editable="false" title="DESC CORTA" type="java.lang.Object"/>
+                    <Column editable="false" title="DESC LARGA" type="java.lang.Object"/>
+                    <Column editable="false" title="CATEGORIA" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jButton2"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
